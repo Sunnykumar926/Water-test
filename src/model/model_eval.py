@@ -64,7 +64,7 @@ def save_metrics(metrics:dict,metrics_path:str) -> None:
     
 def main():
     try:
-        test_data_path = "./data/processed/processed_test.csv"
+        test_data_path = "./data/processed/processed_test_mean.csv"
         model_path = "models/model.pkl"
         metrics_path = "reports/metrics.json"
 
